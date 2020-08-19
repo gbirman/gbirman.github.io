@@ -1,3 +1,5 @@
+
+
 /*!
     * Start Bootstrap - Freelancer v6.0.0 (https://startbootstrap.com/themes/freelancer)
     * Copyright 2013-2020 Start Bootstrap
@@ -5,6 +7,23 @@
     */
     (function($) {
     "use strict"; // Start of use strict
+
+    let name = "Gabriel Birman"
+    let phone_number = "(609) 933-4082"
+    let email = "gabrielbirman1@gmail.com"
+
+    $(document).ready(() => {
+      //when the document is finished loading, replace everything
+      //between the <a ...> </a> tags with the value of splitText
+      document.getElementById("emailLink").innerHTML = email;
+      document.getElementById("emailLink").setAttribute('href', "mailto:"+email);
+      document.getElementById("phoneLink").innerHTML = phone_number;
+      document.getElementById("nameLink").innerHTML = name;
+      document.getElementById("aboutLink0").innerHTML = "a";
+      document.getElementById("aboutLink1").innerHTML = "b";
+      document.getElementById("masthead-subheading").innerHTML = "Software Engineer";
+    }
+    );
   
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {

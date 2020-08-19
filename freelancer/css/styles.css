@@ -18,8 +18,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bbf400;
-  --secondary: #00c745;
+  --primary: #9a317187;
+  --secondary: #6f1d7551;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -33,6 +33,12 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "SB Body", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+/* 
+  -- colors: 
+  primary: #3a095fba (aorund head)
+  secondary: #560044
+  tertiary: #3A095FBA hover (#7700c1) */
+
 
 *,
 *::before,
@@ -4702,7 +4708,7 @@ a.close.disabled {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #bbf400 !important; }
+  background-color: #9a317187 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -4710,7 +4716,7 @@ button.bg-primary:focus {
   background-color: #94c100 !important; }
 
 .bg-secondary {
-  background-color: #00c745 !important; }
+  background-color: #6f1d7551 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
