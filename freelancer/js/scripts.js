@@ -23,6 +23,26 @@
     }
     );
   
+    // TODO: add projects
+    // Chinese Language App
+    // MRI stuff 
+    // Hesai stuff
+    // Coral Research 
+    // Human Skin Segementation
+    // Depth Estimation
+    // Visual Basic 
+    // Automate arbitrage bet placements?
+
+    // Cool Stuff
+    // Language Learning
+    // Poem? 
+    // Woodworking demo 
+    // Juggling
+    // Musical Compositions
+    // Sports betting stuff? 
+
+
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
