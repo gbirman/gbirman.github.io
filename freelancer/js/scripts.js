@@ -32,6 +32,8 @@
     // Depth Estimation
     // Visual Basic 
     // Automate arbitrage bet placements?
+    // COS 314
+    // Electrip
 
     // Cool Stuff
     // Language Learning
@@ -39,6 +41,7 @@
     // Woodworking demo 
     // Juggling
     // Musical Compositions
+    // Cooking 
     // Sports betting stuff? 
 
 
