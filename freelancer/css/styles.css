@@ -42,6 +42,105 @@
 *::after {
   box-sizing: border-box; }
 
+  
+.box {
+  background-color: red;
+  border: 0.5em solid green;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-rows: 1fr;
+}
+
+.testportfolio {
+  background-color: var(--secondary);
+  padding: 1rem;
+  border-radius: 2em;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .testportfolio.testportfolio-1 {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.testportfolio.testportfolio-2 {
+  grid-row: 1 / 1;
+  grid-column: 2 / 2;
+}
+
+.testportfolio.testportfolio-3 {
+  grid-row: 1 / 1;
+  grid-column: 3 / 3;
+}
+
+.testportfolio.testportfolio-4 {
+  grid-row: 1 / 1;
+  grid-column: 4 / 4;
+}
+
+.testportfolio.testportfolio-5 {
+  grid-row: 1 / 1;
+  grid-column: 5 / 5;
+} */
+
+.testportfolio .testportfolio-caption {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: var(--yellow-transparent);
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  }
+  
+.testportfolio .testportfolio-caption:hover {
+    opacity: 1; 
+  }
+
+.grid > div > div {
+    border-radius: 2em;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.grid > div > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .portfolio .portfolio-item {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 12rem;
+  height: 18rem;
+  border-radius: 0.5rem;
+  overflow: hidden; }
+  .portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: var(--yellow-transparent); }
+    .portfolio .portfolio-item .portfolio-item-caption:hover {
+      opacity: 1; }
+    .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+      font-size: 1.5rem; }
+
 .rainbow-text {
   
     /* Font options */
@@ -7357,10 +7456,12 @@ h3 {
       font-size: 1.5rem; } }
 
 .portfolio .portfolio-item {
+  text-align: center;
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 12rem;
+  height: 18rem;
   border-radius: 0.5rem;
   overflow: hidden; }
   .portfolio .portfolio-item .portfolio-item-caption {
