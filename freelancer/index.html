@@ -6,6 +6,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>Freelancer - Start Bootstrap Theme</title>
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
         <!-- Font Awesome icons (free version)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -20,13 +21,13 @@
                 <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger cursor-pointer" href="#about">ABOUT</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger cursor-pointer" href="#portfolio">PORTFOLIO</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#coolstuff">COOL STUFF</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger cursor-pointer" href="#coolstuff">COOL STUFF</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger cursor-pointer" href="#contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -68,7 +69,7 @@
             </div>
         </section>
         <section class="page-section bg-primary text-white portfolio" id="portfolio">
-            <div class="container mw-100">
+            <div class="container">
                 <!-- Portfolio Section Heading-->
                 <div class="text-center">
                     <h2 class="page-section-heading mb-0 d-inline-block">PORTFOLIO</h2>
@@ -81,118 +82,67 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="grid">
-                    <!-- <div class="portfolio-item" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div class="h-100 w-100"><img src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
-                    </div> -->
-                    <!-- <div class="testportfolio"></div>
-                     <div><img src="assets/img/portfolio/tigereats.png" alt=""></div>
-                    </div> -->
-                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal0">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Focused Ultrasound Research</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/fus.png" alt=""></div>
                     </div>
                     <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
-                    </div>
-                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
-                    </div>
-                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
-                    </div>
-                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">TigerEats</span>
+                        </div>
                         <div><img src="assets/img/portfolio/tigereats.png" alt=""></div>
                     </div>
                     <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">LiDAR Perception</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/lidar.png" alt=""></div>
                     </div>
                     <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Chinese Flashcards</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/zhongwen.png" alt=""></div>
                     </div>
                     <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Gulf of Mexico Coral Research</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/coral.png" alt=""></div>
                     </div>
                     <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Human Skin Segmentation</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/skin.png" alt=""></div>
                     </div>
                     <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="testportfolio-caption"></div>
-                        <div><img src="assets/img/portfolio/cake.png" alt=""></div>
-                    </div>
-                <!-- <div class="row"> -->
-                    <!-- <div class="row"> -->
-                        <!-- <div class="box col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-                        <div class="box col-xs-6 col-md-4">.col-xs-6 .col-md-4</div> -->
-                      <!-- </div> -->
-                      
-                      <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-                      <!-- <div class="row"> -->
-                        <!-- <div class="box col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                        <div class="box col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-                        <div class="box col-xs-6 col-md-4">.col-xs-6 .col-md-4</div> -->
-                      <!-- </div> -->
-                      
-                      <!-- Columns are always 50% wide, on mobile and desktop -->
-                      <!-- <div class="row"> -->
-                        <!-- <div class="box col-xs-6">.col-xs-6</div>
-                        <div class="box col-xs-6">.col-xs-6</div> -->
-                      <!-- </div> -->
-                  <!-- </div> -->
-                <!-- <div class="row justify-content-center"> -->
-                    <!-- Portfolio Items-->
-                    <!-- <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="w-100 h-100" src="assets/img/portfolio/tigereats.png" alt="TigerEats"/>
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Depth Estimation</span>
                         </div>
+                        <div><img src="assets/img/portfolio/depth.png" alt=""></div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid w-100" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Excel Product Management Add-In</span>
                         </div>
+                        <div><img src="assets/img/portfolio/excel.png" alt=""></div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/circus.png" alt="Circus Tent"/>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Computer Music</span>
                         </div>
+                        <div><img src="assets/img/portfolio/music.png" alt=""></div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/game.png" alt="Controller"/>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">elecTrip</span>
                         </div>
+                        <div><img src="assets/img/portfolio/electrip.png" alt=""></div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div><img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
-                        </div>
-                    </div> -->
-                <!-- </div> -->
+                </div>
             </div>
         </section>
         <!-- Portfolio Modal-->
@@ -215,7 +165,7 @@
                                     <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="Log Cabin"/>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw cursor-pointer"></i>Close Window</button>
                                 </div>
                             </div>
                         </div>
@@ -370,7 +320,69 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Content-->
+                <!-- Hobby Grid Items-->
+                <div class="grid">
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Focused Ultrasound Research</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/fus.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">TigerEats</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/tigereats.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">LiDAR Perception</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/lidar.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Chinese Flashcards</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/zhongwen.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Gulf of Mexico Coral Research</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/coral.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Human Skin Segmentation</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/skin.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Depth Estimation</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/depth.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Excel Product Management Add-In</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/excel.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">Computer Music</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/music.png" alt=""></div>
+                    </div>
+                    <div class="testportfolio" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="testportfolio-caption tooltip">
+                            <span class="tooltiptext">elecTrip</span>
+                        </div>
+                        <div><img src="assets/img/portfolio/electrip.png" alt=""></div>
+                    </div>
+                </div>
             </div>
         </section>
         <footer class="footer text-center" id="contact">
@@ -378,13 +390,13 @@
             <div class="col-lg mb-5 mb-lg-0">
                 <h4 class="mb-4">CONTACT ME</h4>
                 <a class="btn btn-outline-light btn-social mx-1" id="emailLink">
-                    <i class="far fa-envelope"></i>
+                    <i class="far fa-envelope cursor-pointer"></i>
                 </a>
                 <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/gabriel-birman-524749131/">
-                    <i class="fab fa-fw fa-linkedin-in"></i>
+                    <i class="fab fa-fw fa-linkedin-in cursor-pointer"></i>
                 </a>
                 <a class="btn btn-outline-light btn-social btn-github mx-1" href="https://github.com/gbirman">
-                    <i class="fab fa-github"></i>
+                    <i class="fab fa-github cursor-pointer"></i>
                 </a>
             </div>
         </footer>
