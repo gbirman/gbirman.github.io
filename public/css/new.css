@@ -144,3 +144,7 @@
      90%{color: DodgerBlue;}
      100%{color: orange;}
    }
+
+    audio:focus{
+      outline: none;
+    }
