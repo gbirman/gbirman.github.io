@@ -87,6 +87,14 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
+
+    // disable audio on modal close 
+    $('.modal').on('hidden.bs.modal', function () { 
+      $('audio').each(function(){
+          this.pause(); // Stop playing
+          this.currentTime = 0; // Reset time
+      }); 
+    })
   
   })(jQuery); // End of use strict
   
