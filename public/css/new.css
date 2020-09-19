@@ -145,6 +145,6 @@
      100%{color: orange;}
    }
 
-    audio:focus{
-      outline: none;
-    }
+  audio:focus{
+    outline: none;
+  }
